@@ -29,7 +29,7 @@
         
 
         <script>
-            const socket = io({port:8000});
+            const socket = io("localhost:8000");
 
             const peer = new RTCPeerConnection({
                 iceServers: [
